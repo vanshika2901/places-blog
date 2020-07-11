@@ -1,0 +1,59 @@
+body
+{
+	width:80%;
+	
+	font-family: sans-serif;
+	padding: 70px;
+	margin: 70px;
+}
+.post
+{
+	margin-bottom: 20px;
+}
+.date
+{
+	color: #3498db;
+	letter-spacing: 0.2cm;
+	text-transform: uppercase;
+}
+.quote
+{
+	border-left: 5px solid #bdc3c7;
+	padding-left:5px;
+	text-align: justify;
+}
+.caption{
+	text-align: justify;
+}
+h2{
+	font-size:2.0rem;
+	font-weight: bold;
+	color:#2c3e50;
+}
+hr{
+	border: 0;
+	height: 0;
+	border-top: 1px solid black;
+	border-bottom:1px solid #3498db;
+}
+img
+{
+	width: 700px;
+	height: 300px;
+}
+@media screen {
+	body{
+		margin: 30px;
+		padding: 20px;
+		width: 85%;
+}
+h2{
+	font-size: 1rem;
+}
+.date{
+	font-size: 0.8rem;
+}
+.caption{
+	font-size: 0.7rem;
+}
+}
